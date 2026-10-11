@@ -1083,3 +1083,30 @@ a:hover {
 .anchor-target {
   scroll-margin-top: calc(var(--header-h) + 1rem);
 }
+/* Social links footer */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-links li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.social-links li a:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+
+.social-links i {
+  font-size: 17px;
+}
