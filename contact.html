@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Connect China Consultants</title>
+  <meta name="description" content="Contact Connect China Consultants by WhatsApp, email, or the inquiry form for counseling on medical, nursing, and language programs in China.">
+  <meta property="og:title" content="Contact Connect China Consultants">
+  <meta property="og:description" content="WhatsApp, email, and a working inquiry form with WhatsApp and mailto handoff.">
+  <meta property="og:image" content="public/assets/images/about-student-support.jpg">
+  <link rel="icon" href="public/assets/images/favicon-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="public/assets/images/horizontal-logo.png" alt="Connect China Consultants" width="280" height="72">
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admission.html">Admission Process</a></li>
+          <li><a href="degrees.html">Degrees</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+          <li class="nav-cta"><a class="btn btn-gold" href="contact.html">Get Advice</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Counseling</p>
+        <h1>Contact Us</h1>
+        <p class="lede">Tell us about your goals and we will help you compare programs, universities, and the next admission intake.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="card">
+          <h2>Contact information</h2>
+          <ul class="contact-list">
+            <li>
+              <strong>WhatsApp</strong><br>
+              <a href="https://wa.me/8615507960969">+86 155 0796 0969</a>
+            </li>
+            <li>
+              <strong>Email</strong><br>
+              <a href="mailto:connect.chinaconsultants@gmail.com">connect.chinaconsultants@gmail.com</a>
+            </li>
+            <li>
+              <strong>Facebook</strong><br>
+              Connect China Consultants — URL to be added later.
+            </li>
+            <li>
+              <strong>Instagram</strong><br>
+              Connect China — URL to be added later.
+            </li>
+            <li>
+              <strong>TikTok</strong><br>
+              URL to be added later.
+            </li>
+            <li>
+              <strong>WeChat</strong><br>
+              Details to be added later.
+            </li>
+          </ul>
+          <p class="note">Edit handles and URLs in <code>js/site-data.js</code>. Destinations are not invented.</p>
+        </aside>
+
+        <div class="card">
+          <h2>Inquiry form</h2>
+          <p>Complete the form, then send your inquiry through WhatsApp or email. This site does not currently deliver messages to the inbox by itself.</p>
+          <form class="form" id="inquiry-form" novalidate>
+            <div class="hp" aria-hidden="true">
+              <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            </div>
+            <div class="form-field">
+              <label for="fullName">Full name <span class="req">*</span></label>
+              <input id="fullName" name="fullName" type="text" required autocomplete="name" maxlength="120">
+            </div>
+            <div class="form-field">
+              <label for="email">Email address <span class="req">*</span></label>
+              <input id="email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div class="form-field">
+              <label for="country">Country of residence <span class="req">*</span></label>
+              <input id="country" name="country" type="text" required autocomplete="country-name" maxlength="80">
+            </div>
+            <div class="form-field">
+              <label for="intended-program">Intended program <span class="req">*</span></label>
+              <select id="intended-program" name="program" required>
+                <option value="">Select a program</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="preferred-university">Preferred university <span class="req">*</span></label>
+              <select id="preferred-university" name="university" required>
+                <option value="">Select a university</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="preferred-intake">Preferred intake <span class="req">*</span></label>
+              <select id="preferred-intake" name="intake" required>
+                <option value="">Select an intake</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Message or inquiry <span class="req">*</span></label>
+              <textarea id="message" name="message" required maxlength="2000"></textarea>
+            </div>
+            <label class="consent">
+              <input type="checkbox" name="consent" required>
+              <span>I agree that Connect China Consultants may use this information to respond to my inquiry. See the <a href="privacy.html">privacy policy</a> (draft wording pending a completed policy). <span class="req">*</span></span>
+            </label>
+            <button class="btn btn-primary" type="submit">Submit inquiry</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <div class="fallback-actions" id="form-fallbacks" hidden>
+              <a class="btn btn-gold" id="whatsapp-send" href="https://wa.me/8615507960969" target="_blank" rel="noopener noreferrer">Open WhatsApp with my message</a>
+              <a class="btn btn-outline" id="mailto-send" href="mailto:connect.chinaconsultants@gmail.com">Open email draft</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="public/assets/images/main-logo.png" alt="" width="72" height="72">
+          <span class="brand-text"><strong>Connect China Consultants</strong><span>International education</span></span>
+        </a>
+        <p>Helping students explore and apply to medical, nursing, and Chinese-language programs at universities in China.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admission.html">Admission Process</a></li>
+          <li><a href="degrees.html">Degrees</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>WhatsApp: <a href="https://wa.me/8615507960969">+86 155 0796 0969</a></p>
+        <p>Email: <a href="mailto:connect.chinaconsultants@gmail.com">connect.chinaconsultants@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> Connect China Consultants</span>
+      <a href="privacy.html">Privacy policy</a>
+    </div>
+  </footer>
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

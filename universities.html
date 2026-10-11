@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partner Universities | Connect China Consultants</title>
+  <meta name="description" content="Compare partner universities in China on one page. Cards include programs, fees where supplied, and a request-info option — no separate university pages.">
+  <meta property="og:title" content="Partner Universities in China">
+  <meta property="og:description" content="A single directory of partner universities with cards, expandable details, and a comparison table.">
+  <meta property="og:image" content="public/assets/images/university-jinggangshan.jpg">
+  <link rel="icon" href="public/assets/images/favicon-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="public/assets/images/horizontal-logo.png" alt="Connect China Consultants" width="280" height="72">
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admission.html">Admission Process</a></li>
+          <li><a href="degrees.html">Degrees</a></li>
+          <li><a href="universities.html" aria-current="page">Universities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="nav-cta"><a class="btn btn-gold" href="contact.html">Get Advice</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Directory</p>
+        <h1>Partner Universities in China</h1>
+        <p class="lede">Connect China partners with MOE-recognized, WHO-listed institutions. We help place students in these accredited universities across many major universities across China.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- <p class="note" style="margin-bottom:1.5rem;">Every university is shown on this page as a card. There are no separate university profile pages. Use <strong>More details</strong> inside a card for extra facts. Names flagged for confirmation remain editable in <code>js/site-data.js</code>.</p> -->
+        <div class="grid-2" id="university-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container" style="text-align:center;">
+        <h2>Looking for another university?</h2>
+        <p>Contact us if you have any other university in mind.</p>
+        <a class="btn btn-primary" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Quick university comparison</h2>
+          <p>Drawn from the same records as the cards. Missing values are marked “Contact us to confirm” rather than guessed. On small screens, scroll the table horizontally.</p>
+        </div>
+        <div class="table-wrap" tabindex="0" aria-label="University comparison table">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th scope="col">University</th>
+                <th scope="col">Location</th>
+                <th scope="col">Programs</th>
+                <th scope="col">Instruction</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Tuition</th>
+                <th scope="col">Accommodation</th>
+                <th scope="col">Intakes</th>
+                <th scope="col">Scholarships</th>
+                <th scope="col">Recognition</th>
+              </tr>
+            </thead>
+            <tbody id="compare-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="public/assets/images/main-logo.png" alt="" width="72" height="72">
+          <span class="brand-text"><strong>Connect China Consultants</strong><span>International education</span></span>
+        </a>
+        <p>Helping students explore and apply to medical, nursing, and Chinese-language programs at universities in China.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admission.html">Admission Process</a></li>
+          <li><a href="degrees.html">Degrees</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>WhatsApp: <a href="https://wa.me/8615507960969">+86 155 0796 0969</a></p>
+        <p>Email: <a href="mailto:connect.chinaconsultants@gmail.com">connect.chinaconsultants@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> Connect China Consultants</span>
+      <a href="privacy.html">Privacy policy</a>
+    </div>
+  </footer>
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
