@@ -8,12 +8,12 @@ CCC.site = {
   email: "connect.chinaconsultants@gmail.com",
   whatsappDisplay: "+86 155 0796 0969",
   whatsappUrl: "https://wa.me/8615507960969",
-  social: {
-    facebook: { label: "Connect China Consultants", url: "" },
-    instagram: { label: "Connect China", url: "https://www.instagram.com/connect.chinaconsultants/" },
-    tiktok: { label: "TikTok", url: "" },
-    wechat: { label: "WeChat", details: "" }
-  },
+  // social: {
+  //   facebook: { label: "Connect China Consultants", url: "https://www.facebook.com/profile.php?id=61595384543361" },
+  //   instagram: { label: "Connect China", url: "https://www.instagram.com/connect.chinaconsultants/" },
+  //   tiktok: { label: "TikTok", url: "https://www.tiktok.com/@connect.chinaconsultants" },
+  //   wechat: { label: "WeChat", details: "connect.chinaconsultants" }  // 微信 ID
+  // },
   privacyPath: "privacy.html"
 };
 
@@ -172,26 +172,26 @@ CCC.universities = [
     tags: [],
     nameNeedsConfirmation: false
   },
-  {
-    id: "yangtze",
-    name: "Yangtze University",
-    location: CCC.confirmPlaceholder,
-    image: "public/assets/images/university-yangtze.jpg",
-    logo: "public/assets/images/logo-yangtze.png",
-    overview:
-      "Partner university listed by name. Confirm which campuses and programs are offered through Connect China Consultants.",
-    type: "",
-    degrees: [],
-    language: CCC.confirmPlaceholder,
-    duration: CCC.confirmPlaceholder,
-    tuition: CCC.confirmPlaceholder,
-    accommodation: CCC.confirmPlaceholder,
-    scholarship: CCC.confirmPlaceholder,
-    intakes: CCC.confirmPlaceholder,
-    recognition: CCC.confirmPlaceholder,
-    tags: [],
-    nameNeedsConfirmation: false
-  },
+  // {
+  //   id: "yangtze",
+  //   name: "Yangtze University",
+  //   location: CCC.confirmPlaceholder,
+  //   image: "public/assets/images/university-yangtze.jpg",
+  //   logo: "public/assets/images/logo-yangtze.png",
+  //   overview:
+  //     "Partner university listed by name. Confirm which campuses and programs are offered through Connect China Consultants.",
+  //   type: "",
+  //   degrees: [],
+  //   language: CCC.confirmPlaceholder,
+  //   duration: CCC.confirmPlaceholder,
+  //   tuition: CCC.confirmPlaceholder,
+  //   accommodation: CCC.confirmPlaceholder,
+  //   scholarship: CCC.confirmPlaceholder,
+  //   intakes: CCC.confirmPlaceholder,
+  //   recognition: CCC.confirmPlaceholder,
+  //   tags: [],
+  //   nameNeedsConfirmation: false
+  // },
   {
     id: "gannan-medical",
     name: "Gannan Medical University",

@@ -302,7 +302,7 @@
         fallback.hidden = false;
         status.classList.add("success");
         status.textContent =
-          "Your inquiry is ready. Email delivery is not configured on this site yet. Open WhatsApp or your email app to send the message yourself — nothing has been delivered automatically.";
+          "Error, Try Again or Contact us On Whatsapp or other social media platforms";
       }, 400);
     });
   }
